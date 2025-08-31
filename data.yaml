@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Glucoma_positive-cnPH']
+
+roboflow:
+  workspace: indrajit-bmfjc
+  project: glucoma-positve
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/indrajit-bmfjc/glucoma-positve/dataset/1
